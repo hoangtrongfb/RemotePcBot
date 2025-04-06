@@ -122,8 +122,8 @@ Nếu hiện ra phiên bản Python → Thành công.
 
 #### Cách 1: Clone bằng Git
 ```bash
-git clone https://github.com/hoangtrongfb/RemotePcBot.git
-cd RemotePcBot
+git clone https://github.com/hoangtrongfb/RemotePcBot.git C:\RemotePcBot
+cd C:\RemotePcBot
 ```
 
 #### Cách 2: Tải file zip → giải nén vào ổ C → mở CMD và:
