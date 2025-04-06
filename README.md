@@ -239,7 +239,7 @@ Nếu xuất hiện thông tin phiên bản, FFmpeg đã được thêm thành c
 
 - FFmpeg tối ưu video quay màn hình.
 
-- Xoá mã này trong bot.py để tắt ẩn cmd
+- Xoá mã này trong bot.py nếu muốn tắt chức năng ẩn cmd khi mở
 
 ```bash
   import ctypes
