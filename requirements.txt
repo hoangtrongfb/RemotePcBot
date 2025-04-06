@@ -1,0 +1,9 @@
+psutil
+requests
+opencv-python
+numpy
+pyperclip
+pyaudio
+pyautogui
+mss
+speedtest-cli
