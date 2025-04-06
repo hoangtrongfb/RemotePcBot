@@ -239,5 +239,13 @@ Nếu xuất hiện thông tin phiên bản, FFmpeg đã được thêm thành c
 
 - FFmpeg tối ưu video quay màn hình.
 
+- Xoá mã này trong bot.py để tắt ẩn cmd
+
+```bash
+  import ctypes
+# Ẩn cửa sổ console trên Windows
+if os.name == 'nt':
+    ctypes.windll.user32.ShowWindow(ctypes.windll.kernel32.GetConsoleWindow(), 0)
+```
 # Tác giả
 ## Trong Nguyen X AI
