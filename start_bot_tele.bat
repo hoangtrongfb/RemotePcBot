@@ -1,3 +1,3 @@
 @echo off
-start "" "python" "C:\bot-telegram\bot.py"
+start "" "python" "C:\RemotePcBot\bot.py"
 exit
