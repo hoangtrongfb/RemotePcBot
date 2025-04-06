@@ -126,7 +126,7 @@ git clone https://github.com/hoangtrongfb/RemotePcBot.git
 cd RemotePcBot
 ```
 
-#### Cách 2: Tải file zip → giải nén → mở CMD và:
+#### Cách 2: Tải file zip → giải nén vào ổ C → mở CMD và:
 ```bash
 cd c:\RemotePcBot
 pip install -r requirements.txt
