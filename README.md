@@ -1,251 +1,210 @@
 # RemotePcBot
-Bot Telegram để điều khiển máy tính từ xa
-![Screenshot 2025-04-06 125114](https://github.com/user-attachments/assets/5ef470b1-6fc5-4e98-a6a7-ae2f5299f7b6)
 
-Danh sách chức năng của bot
-Bot này cho phép điều khiển máy tính từ xa qua Telegram với các tính năng được chia thành các menu chính và submenu như sau:
+Bot Telegram để điều khiển máy tính từ xa  
+![Screenshot](https://github.com/user-attachments/assets/5ef470b1-6fc5-4e98-a6a7-ae2f5299f7b6)
 
-# Menu chính
+---
 
-📸 Chụp ảnh/Video: Chụp ảnh, quay video từ màn hình hoặc webcam.
+## 🧰 Danh sách chức năng của bot
 
-🔊 Âm lượng: Điều chỉnh âm lượng hệ thống.
+Bot này cho phép điều khiển máy tính từ xa qua Telegram với các tính năng chính như sau:
 
-🔋 Quản lý nguồn: Quản lý trạng thái nguồn của máy tính.
+### Menu chính
 
-💻 Quản lý hệ thống: Theo dõi và quản lý trạng thái hệ thống.
+- 📸 **Chụp ảnh/Video**: Chụp màn hình, webcam, quay video, ghi âm.
+- 🔊 **Âm lượng**: Tăng/giảm âm lượng, bật/tắt tiếng.
+- 🔋 **Quản lý nguồn**: Tắt máy, khởi động lại, sleep, khóa màn hình.
+- 💻 **Quản lý hệ thống**: Xem CPU, RAM, pin, tiến trình, tắt chương trình.
+- 🌐 **Công cụ mạng**: Xem IP, ping, test tốc độ mạng, tải file, kiểm tra Wi-Fi.
+- 🛠️ **Tiện ích khác**: Mở Explorer, CMD, Notepad, Task Manager, gửi thông báo...
+- 📎 **Gửi clipboard**: Gửi nội dung clipboard qua Telegram.
+- 📤 **Gửi file**: Gửi file từ máy tính.
+- 📂 **Quản lý tệp**: Tạo, liệt kê, xóa file/thư mục.
+- 🤖 **Tự động hóa**: Gõ phím, chạy script, lên lịch tắt máy.
+- 🖱️ **Menu chuột**: Điều khiển chuột từ xa.
+- 🎵 **Điều khiển media**: Play, pause, next, previous, stop.
+- 🔙 **Thoát**: Thoát bot.
 
-🌐 Công cụ mạng: Các công cụ liên quan đến mạng.
+---
 
-🛠️ Tiện ích khác: Các tiện ích hỗ trợ khác.
+## 📑 Submenu chi tiết
 
-📎 Gửi clipboard: Gửi nội dung clipboard qua Telegram.
+### 📸 Chụp ảnh/Video
 
-📤 Gửi file: Gửi file từ máy tính qua Telegram.
+- Chụp màn hình  
+- Chụp ảnh webcam  
+- Ghi âm  
+- Quay màn hình  
 
-📂 Quản lý tệp: Quản lý file và thư mục.
+### 🔊 Âm lượng
 
-🤖 Tự động hóa: Tự động hóa các tác vụ.
+- Tăng âm lượng  
+- Giảm âm lượng  
+- Tắt tiếng  
+- Bật tiếng  
 
-🖱️ Menu chuột: Điều khiển chuột từ xa.
+### 🔋 Quản lý nguồn
 
-🎵 Điều khiển media: Điều khiển phát media.
+- Sleep  
+- Tắt máy  
+- Khởi động lại  
+- Khóa màn hình  
+- Tắt màn hình  
 
-🔙 Thoát: Thoát bot.
+### 💻 Quản lý hệ thống
 
-# Submenu chi tiết
-## 📸 Chụp ảnh/Video
+- Trạng thái CPU, RAM, pin  
+- Danh sách tiến trình  
+- Tắt chương trình  
 
-Chụp màn hình
+### 🌐 Công cụ mạng
 
-Chụp ảnh từ webcam
+- Xem IP Public  
+- Ping URL  
+- Tìm kiếm Google  
+- Trạng thái Wi-Fi  
+- Kiểm tra tốc độ mạng  
+- Cấu hình IP (DHCP / Static)  
+- Tải file từ URL  
+- Kiểm tra port  
 
-Ghi âm
+### 🛠️ Tiện ích khác
 
-Quay màn hình
+- Mở Explorer, Chrome, CMD, UltraViewer, Notepad...  
+- Xem dung lượng ổ đĩa  
+- Phát âm thanh từ file  
+- Gửi thông báo màn hình  
 
-## 🔊 Âm lượng
+### 📂 Quản lý tệp
 
-Tăng âm lượng
+- Tạo thư mục  
+- Liệt kê file/thư mục  
+- Xóa file  
 
-Giảm âm lượng
+### 🤖 Tự động hóa
 
-Tắt tiếng
+- Gõ phím tự động  
+- Nhấn Enter  
+- Lên lịch tắt máy  
+- Chạy script  
 
-Bật tiếng
+### 🖱️ Menu chuột
 
-## 🔋 Quản lý nguồn
+- Cuộn lên/xuống  
+- Nhấn chuột trái/phải  
+- Nhấn đúp chuột  
 
-Sleep
+### 🎵 Điều khiển media
 
-Tắt máy
+- Play / Pause  
+- Previous / Next  
+- Stop  
 
-Khởi động lại
+---
 
-Khóa màn hình
+## 🧪 Hướng dẫn cài đặt & cấu hình
 
-Tắt màn hình
+### 1. Cài đặt Python
 
-## 💻 Quản lý hệ thống
+- Tải Python tại: [https://www.python.org/downloads/](https://www.python.org/downloads/)
+- Chọn phiên bản mới nhất.
+- Trong lúc cài đặt, tích chọn `Add Python to PATH`, rồi bấm `Install Now`.
 
-Trạng thái hệ thống (CPU, RAM, pin)
-
-Danh sách tiến trình
-
-Tắt chương trình
-
-## 🌐 Công cụ mạng
-
-Xem IP Public
-
-Ping URL
-
-Tìm kiếm web trên Google
-
-Kiểm tra trạng thái Wi-Fi
-
-Kiểm tra tốc độ mạng
-
-Cấu hình IP (DHCP hoặc tĩnh)
-
-Tải file từ URL
-
-Kiểm tra port
-
-## 🛠️ Tiện ích khác
-
-Mở File Explorer, trình duyệt, CMD, UltraViewer, TeamViewer, Notepad, Calculator, Task Manager, Control Panel, Paint, Cài đặt Windows
-
-Xem dung lượng ổ đĩa
-
-Phát âm thanh từ file
-
-Gửi thông báo lên màn hình
-
-## 📂 Quản lý tệp
-
-Tạo thư mục
-
-Liệt kê file/thư mục
-
-Xóa file
-
-## 🤖 Tự động hóa
-
-Gõ phím tự động
-
-Nhấn Enter
-
-Lên lịch tắt máy
-
-Chạy script
-
-## 🖱️ Menu chuột
-
-Cuộn lên/xuống
-
-Nhấn chuột trái/phải
-
-Nhấn đúp chuột
-
-## 🎵 Điều khiển media
-
-Play/Pause
-
-Previous/Next
-
-Stop
-
-# Hướng dẫn cài đặt và cấu hình
-
-## 1. Cài đặt Python
-
-### Tải Python từ trang chính thức: [python.org](https://www.python.org/downloads/)
-
-- Chọn phiên bản mới nhất
-
-- Trong quá trình cài đặt:
-
-- Tích chọn "Add Python to PATH".
-
-- Chọn "Install Now".
-
-Kiểm tra cài đặt:
-
-```python
+✅ Kiểm tra:
+```bash
 python --version
 ```
-- Nếu xuất hiện phiên bản (ví dụ: Python 3.11.5), cài đặt thành công.
+Nếu hiện ra phiên bản Python → Thành công.
 
-# 2. Download
+---
 
-### Mở CMD
+### 2. Clone mã nguồn hoặc tải về
+
+#### Cách 1: Clone bằng Git
 ```bash
 git clone https://github.com/hoangtrongfb/RemotePcBot.git
-cd thưmụcđãlưu
+cd RemotePcBot
 ```
-Hoặc tải zip các mã trên về giải nén vào ổ C, mở cmd và cd tới thư mục.
+
+#### Cách 2: Tải file zip → giải nén → mở CMD và:
 ```bash
 cd c:\RemotePcBot
 pip install -r requirements.txt
 ```
-Sau đó tiếp lệnh:
+
+Cài thêm thư viện:
 ```bash
 pip install python-telegram-bot --upgrade
 ```
-# 3. Cài đặt và thêm FFmpeg vào PATH
 
-FFmpeg được sử dụng để tối ưu video quay màn hình.
+---
 
-### Tải FFmpeg:
-Vào [ffmpeg.org](https://www.gyan.dev/ffmpeg/builds/)
+### 3. Cài đặt và thêm FFmpeg vào PATH
 
-- Tải phiên bản dành cho Windows (hoặc hệ điều hành bạn dùng).
+#### Tải tại:
+[https://www.gyan.dev/ffmpeg/builds/](https://www.gyan.dev/ffmpeg/builds/)
 
-- Giải nén file tải về (ví dụ: ffmpeg-6.0-essentials_build.zip).
+- Tải bản `ffmpeg-*-essentials_build.zip`
+- Giải nén vào ví dụ: `C:\ffmpeg`
 
-### Thêm FFmpeg vào PATH:
+#### Thêm vào PATH:
 
-- Di chuyển thư mục giải nén (ví dụ: ffmpeg-6.0-essentials_build) vào một vị trí cố định, như C:\ffmpeg.
+- Nhấn `Win + R`, gõ `sysdm.cpl`
+- Chọn tab **Advanced** → Environment Variables
+- Trong `System Variables`, chọn `Path` → Edit → Add:
+```
+C:\ffmpeg\bin
+```
 
-- Nhấn Win + R, gõ sysdm.cpl, nhấn Enter.
-
-- Vào tab Advanced > Nhấn Environment Variables.
-
-- Trong System Variables, tìm biến Path, chọn Edit.
-
-- Thêm đường dẫn tới thư mục bin của FFmpeg (ví dụ: C:\ffmpeg\bin).
-
-- Nhấn OK để lưu.
-
-### Mở CMD kiểm tra
+✅ Kiểm tra:
 ```bash
 ffmpeg -version
 ```
-Nếu xuất hiện thông tin phiên bản, FFmpeg đã được thêm thành công.
 
-# 4. Tạo bot Telegram và lấy Token, Chat ID
-### Tạo bot:
-- Mở Telegram, tìm @BotFather.
+---
 
-- Gửi lệnh /start.
+### 4. Tạo Bot Telegram & cấu hình Token
 
-- Gửi /newbot, làm theo hướng dẫn:
+#### Tạo bot:
 
-- Đặt tên bot (ví dụ: MyRemoteBot).
+- Mở Telegram → tìm `@BotFather` → gửi `/start`
+- Gửi `/newbot` → đặt tên + username (phải kết thúc bằng `Bot`)
+- Nhận được `Token`: dạng `123456789:ABCDEF...`
 
-- Đặt username (phải kết thúc bằng Bot, ví dụ: @MyRemoteBot).
+#### Lấy Chat ID:
 
-- Sau khi tạo xong, BotFather sẽ gửi Token (dạng: 123456789:ABCDEF...).
+- Tìm bot `@chatidrobot`, nhấn start → nhận Chat ID
 
-- Nhập thêm lệnh /setcommands chọn bot và nhập "start - Bắt đầu sử dụng bot" để hiện thị nút Menu
+✅ Dán `Token` và `Chat ID` vào file `token.txt` trong project.
 
-### Lấy Chat ID:
-- Tìm @chatIDrobot start để lấy chatid
+- Nhập thêm lệnh `/setcommands` chọn bot và nhập `start - Bắt đầu sử dụng bot` để hiện thị nút Menu
 
-- Sao chép token và chatid dán vào token.txt
+---
 
-# 5: Tự động chạy khi máy tính khởi động
-- Bấm chuột phải vào file start_bot_tele.bat chọn create shortcut
+### 5. Tự động chạy khi khởi động máy
 
-- Nhấn Win + R, gõ shell:startup, nhấn Enter.
+- Nhấn chuột phải `start_bot_tele.bat` → Create shortcut
+- Nhấn `Win + R` → gõ `shell:startup`
+- Dán shortcut vào thư mục Startup
 
-- Kéo shortcut của start_bot.bat vào thư mục Startup.
+---
 
-# Lưu ý
-- Đảm bảo Internet hoạt động.
+## ⚠️ Lưu ý
 
-- Một số tính năng cần quyền admin.
+- Cần kết nối Internet để bot hoạt động.
+- Một số chức năng cần quyền admin.
+- FFmpeg giúp quay video màn hình mượt hơn.
+- Nếu không muốn ẩn CMD khi chạy bot, hãy xóa đoạn sau trong `bot.py`:
 
-- FFmpeg tối ưu video quay màn hình.
+```python
+import ctypes
 
-- Xoá mã này trong bot.py nếu muốn tắt chức năng ẩn cmd khi mở
-
-```bash
-  import ctypes
-# Ẩn cửa sổ console trên Windows
 if os.name == 'nt':
     ctypes.windll.user32.ShowWindow(ctypes.windll.kernel32.GetConsoleWindow(), 0)
 ```
-# Tác giả
-## Trong Nguyen X AI
+
+---
+
+## 👨‍💻 Tác giả
+
+**Trong Nguyen X AI**
