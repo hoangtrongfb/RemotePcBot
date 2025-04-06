@@ -1,5 +1,6 @@
 # RemotePcBot
 Bot Telegram để điều khiển máy tính từ xa
+![Screenshot 2025-04-06 125114](https://github.com/user-attachments/assets/5ef470b1-6fc5-4e98-a6a7-ae2f5299f7b6)
 
 Danh sách chức năng của bot
 Bot này cho phép điều khiển máy tính từ xa qua Telegram với các tính năng được chia thành các menu chính và submenu như sau:
