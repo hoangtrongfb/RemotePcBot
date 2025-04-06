@@ -177,7 +177,7 @@ pip install python-telegram-bot --upgrade
 FFmpeg được sử dụng để tối ưu video quay màn hình.
 
 ### Tải FFmpeg:
-Vào [ffmpeg.org](https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-full.7z/)
+Vào [ffmpeg.org](https://www.gyan.dev/ffmpeg/builds/)
 
 - Tải phiên bản dành cho Windows (hoặc hệ điều hành bạn dùng).
 
